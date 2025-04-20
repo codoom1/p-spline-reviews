@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Local Polynomial Regression and Derivative Estimation</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Derivative estimation in nonparametric regression (2000)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Zhou, S., Shen, X., & Wolfe, D. A.</p>
+                <p><strong>Journal:</strong> Statistica Sinica</p>
+                <p><strong>Year:</strong> 2000</p>
+                <p><strong>Citations:</strong> 300+</p>
+                <a href="../assets/papers/zhou2000.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This foundational paper establishes fundamental results on spline approximation error in derivative estimation. It provides critical theoretical groundwork for understanding the behavior of derivative estimators in nonparametric regression.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Development of error bounds for derivative estimation</li>
+                    <li>Analysis of spline approximation properties</li>
+                    <li>Theoretical framework for convergence analysis</li>
+                    <li>Asymptotic properties of derivative estimators</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The authors develop their analysis through:</p>
+                <ol>
+                    <li>Rigorous mathematical analysis of approximation errors</li>
+                    <li>Development of theoretical bounds</li>
+                    <li>Investigation of asymptotic properties</li>
+                </ol>
+                <p>The key innovation lies in their comprehensive treatment of derivative estimation error analysis.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work is fundamental to our research in several ways:</p>
+                <ul>
+                    <li>Provides theoretical foundation for error analysis</li>
+                    <li>Establishes framework for convergence rate analysis</li>
+                    <li>Insights into optimal parameter selection</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Rigorous mathematical treatment</li>
+                    <li>Comprehensive theoretical framework</li>
+                    <li>Clear derivation of bounds</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Limited practical implementation guidance</li>
+                    <li>Focus on asymptotic rather than finite sample properties</li>
+                    <li>Restricted to specific spline classes</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Results</h3>
+                <div class="equation">
+                    <p>Fundamental approximation error bound:</p>
+                    <p>||f^(r) - s_f^(r)|| = O(h^(q-r))</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>f^(r): r-th derivative of true function</li>
+                        <li>s_f^(r): r-th derivative of spline approximation</li>
+                        <li>h: knot spacing</li>
+                        <li>q: smoothness parameter</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h3>Impact on Derivative Estimation</h3>
+                <p>The paper's results have significantly influenced the field by:</p>
+                <ul>
+                    <li>Establishing theoretical benchmarks for estimator performance</li>
+                    <li>Providing guidelines for parameter selection</li>
+                    <li>Setting framework for future methodological developments</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

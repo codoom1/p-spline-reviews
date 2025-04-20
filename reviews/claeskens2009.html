@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Asymptotic properties of penalized spline estimators</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Asymptotic properties of penalized spline estimators (2009)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Claeskens, G., Krivobokova, T., & Opsomer, J. D.</p>
+                <p><strong>Journal:</strong> Journal of Statistical Planning and Inference</p>
+                <p><strong>Year:</strong> 2009</p>
+                <p><strong>Citations:</strong> 500+</p>
+                <a href="../assets/papers/claeskens2009.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This paper provides a comprehensive analysis of the asymptotic behavior of penalized spline estimators. The authors establish theoretical foundations for understanding convergence rates under different knot selection regimes.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Rigorous analysis of asymptotic properties</li>
+                    <li>Distinction between small and large knots regimes</li>
+                    <li>Derivation of optimal convergence rates</li>
+                    <li>Framework for understanding smoothing parameter selection</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The paper's analytical approach includes:</p>
+                <ol>
+                    <li>Analysis of different knot selection regimes</li>
+                    <li>Development of asymptotic theory for P-splines</li>
+                    <li>Investigation of smoothing parameter behavior</li>
+                </ol>
+                <p>A key insight is the identification of two distinct regimes based on the number of knots relative to sample size.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work is fundamental to our research as it provides the theoretical framework for understanding convergence rates in derivative estimation. Their analysis of knot selection regimes directly influences our approach to optimal parameter selection.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Rigorous mathematical analysis</li>
+                    <li>Clear distinction of asymptotic regimes</li>
+                    <li>Comprehensive theoretical framework</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Limited discussion of practical implementation</li>
+                    <li>Focus on asymptotic rather than finite sample properties</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Results</h3>
+                <div class="equation">
+                    <p>Two key regimes identified:</p>
+                    <ul>
+                        <li>Small number of knots: K = O(n^(1/(2r+1)))</li>
+                        <li>Large number of knots: K ≫ n^(1/(2r+1))</li>
+                    </ul>
+                    <p>Where:</p>
+                    <ul>
+                        <li>K: number of knots</li>
+                        <li>n: sample size</li>
+                        <li>r: smoothness parameter</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+title: <%= ENV['SITE_TITLE'] %>
+description: <%= ENV['SITE_DESCRIPTION'] %>
+author: <%= ENV['SITE_AUTHOR'] %>
+baseurl: "/Literature_review"
+url: <%= ENV['SITE_URL'] %>
+github_username: <%= ENV['GITHUB_USERNAME'] %>
+google_analytics: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
+contact_email: <%= ENV['CONTACT_EMAIL'] %>
+
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-dotenv
+
+exclude:
+  - .env
+  - .env.example
+  - .env.local
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - .git

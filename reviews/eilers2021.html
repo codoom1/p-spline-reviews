@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Practical Smoothing: The Joys of P-splines</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Book Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Practical Smoothing: The Joys of P-splines (2021)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Eilers, P. H. C., & Marx, B. D.</p>
+                <p><strong>Publisher:</strong> Cambridge University Press</p>
+                <p><strong>Year:</strong> 2021</p>
+                <p><strong>Type:</strong> Book</p>
+                <a href="../assets/papers/eilers2021.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This comprehensive book presents a practical guide to P-splines, building on 25 years of development since their original 1996 paper. It combines theoretical foundations with practical implementations and real-world applications.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Comprehensive coverage of P-spline methodology</li>
+                    <li>Practical implementation guidelines</li>
+                    <li>Advanced applications including derivative estimation</li>
+                    <li>Computational efficiency considerations</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Content Overview</h3>
+                <ol>
+                    <li>Foundations of B-splines and penalties</li>
+                    <li>Parameter selection methods</li>
+                    <li>Derivative estimation techniques</li>
+                    <li>Multidimensional smoothing</li>
+                    <li>Applications in various fields</li>
+                </ol>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>The book provides valuable insights for our work:</p>
+                <ul>
+                    <li>Detailed discussion of derivative estimation using P-splines</li>
+                    <li>Practical guidance on parameter selection</li>
+                    <li>Implementation strategies for efficient computation</li>
+                    <li>Guidelines for handling boundary effects</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Comprehensive practical guidance</li>
+                    <li>Clear exposition of complex concepts</li>
+                    <li>Rich examples and case studies</li>
+                    <li>Implementation code provided</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Less emphasis on theoretical proofs</li>
+                    <li>Limited coverage of most recent developments</li>
+                    <li>Focus primarily on R implementations</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Methods</h3>
+                <div class="equation">
+                    <p>Array operations for efficient computation:</p>
+                    <p>S = B'B + λD'D</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>B: B-spline basis matrix</li>
+                        <li>D: difference penalty matrix</li>
+                        <li>λ: smoothing parameter</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h3>Applications</h3>
+                <p>The book covers various applications including:</p>
+                <ul>
+                    <li>Growth curve analysis</li>
+                    <li>Signal processing</li>
+                    <li>Environmental monitoring</li>
+                    <li>Biomedical data analysis</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

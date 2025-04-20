@@ -1,0 +1,182 @@
+Non-Parametric Derivative Estimation Literature Review
+=================================================
+
+Core Methodological Papers
+-------------------------
+
+1. Eilers, P. H. C., & Marx, B. D. (1996)
+Title: Flexible smoothing with B-splines and penalties
+Journal: Statistical Science, 11(2), 89-102
+Citations: 3000+
+DOI: 10.1214/ss/1038425655
+Keywords: P-splines, B-splines, penalized regression, smoothing
+Search: Google Scholar "Flexible smoothing with B-splines and penalties Eilers Marx 1996"
+PDF Format: Save as assets/papers/eilers1996.pdf
+
+2. Eilers, P. H. C., & Marx, B. D. (2021)
+Title: Practical Smoothing: The Joys of P-splines
+Publisher: Cambridge University Press
+Type: Book
+Keywords: P-splines, smoothing, implementation, applications
+Search: ISBN lookup or Cambridge University Press website
+PDF Format: Save as assets/papers/eilers2021.pdf
+
+Theoretical Foundations
+----------------------
+
+3. Claeskens, G., Krivobokova, T., & Opsomer, J. D. (2009)
+Title: Asymptotic properties of penalized spline estimators
+Journal: Journal of Statistical Planning and Inference
+Citations: 500+
+Keywords: asymptotic theory, penalized splines, convergence rates
+Search: Google Scholar "Asymptotic properties of penalized spline estimators Claeskens 2009"
+PDF Format: Save as assets/papers/claeskens2009.pdf
+
+3a. Li, Y., & Ruppert, D. (2008)
+Title: On the asymptotics of penalized splines
+Journal: Biometrika
+Citations: 400+
+Keywords: asymptotic theory, penalized splines, convergence rates, kernel equivalence
+Search: Google Scholar "On the asymptotics of penalized splines Li Ruppert 2008"
+PDF Format: Save as assets/papers/Li&Ruppert2008.pdf
+
+4. Zhou, S., & Wolfe, D. A. (2000)
+Title: Derivative estimation in nonparametric regression
+Journal: Statistica Sinica
+Keywords: spline regression, derivative estimation, theoretical properties
+Search: Statistica Sinica archive or Google Scholar
+PDF Format: Save as assets/papers/zhou2000.pdf
+
+Recent Developments
+------------------
+
+5. Kong, D., Shen, W., Zhao, S., & Wang, W. (2023)
+Title: Robust and Efficient derivative estimation under correlated errors
+Journal: Journal of the Korean Statistical Society
+Keywords: robust estimation, correlated errors, derivative estimation
+Search: Journal of the Korean Statistical Society website or Google Scholar
+PDF Format: Save as assets/papers/kong2023.pdf
+
+6. Hernández, M. A., Lee, D. J., et al. (2023)
+Title: Derivative curve estimation in longitudinal studies using P-splines
+Journal: Statistical Methods in Medical Research
+Citations: 3
+Keywords: longitudinal data, P-splines, derivative estimation
+Search: PubMed or Google Scholar with DOI
+PDF Format: Save as assets/papers/hernandez2023.pdf
+
+7. Hassan, S. G. & Hosseini-Nasab, S. M. E. (2021)
+Title: On mean derivative estimation of longitudinal and functional data: from sparse to dense
+Journal: Statistical Papers
+Keywords: longitudinal data, functional data, derivative estimation
+Search: Statistical Papers website or Google Scholar
+PDF Format: Save as assets/papers/hassan2021.pdf
+
+8. Cui, Z., Kirkby, J. L., & Nguyen, D. (2020)
+Title: Nonparametric density estimation by B-spline duality
+Journal: Econometric Theory
+Citations: 26
+Keywords: B-splines, duality, density estimation, derivative estimation
+Search: Google Scholar or journal website
+PDF Format: Save as assets/papers/cui2020.pdf
+
+9. Xiao, L. (2019)
+Title: Asymptotic theory of penalized splines
+Journal: Electronic Journal of Statistics
+Citations: 40+
+Keywords: penalized splines, asymptotic theory, convergence rates
+Search: Electronic Journal of Statistics website
+PDF Format: Save as assets/papers/xiao2019.pdf
+
+Classical Papers
+--------------
+
+7. Müller, H. G., Stadtmüller, U., & Schmitt, T. (1987)
+Title: Bandwidth Choice and Confidence Intervals for Derivatives of Noisy Data
+Journal: Biometrika
+Keywords: bandwidth selection, derivative estimation, confidence intervals
+Search: JSTOR or Biometrika archive
+PDF Format: Save as assets/papers/muller1987.pdf
+
+8. Buckley, M. J., Eagleson, G. K., & Silverman, B. W. (1988)
+Title: The estimation of residual variance in nonparametric regression
+Journal: Biometrika
+Keywords: variance estimation, nonparametric regression, difference-based estimators
+Search: JSTOR or Biometrika archive
+PDF Format: Save as assets/papers/buckley1988.pdf
+
+9. Rice, J. A. (1986)
+Title: Bandwidth choice for differentiation
+Journal: Journal of Multivariate Analysis
+Keywords: kernel methods, bandwidth selection, derivative estimation
+Search: Journal of Multivariate Analysis archive or university library
+PDF Format: Save as assets/papers/rice1986.pdf
+
+10. Hall, P., Kay, J. W., & Titterington, D. M. (1990)
+Title: Asymptotically optimal difference-based estimation of variance in nonparametric regression
+Journal: Biometrika
+Keywords: variance estimation, nonparametric regression, difference-based estimators
+Search: JSTOR or Biometrika archive
+PDF Format: Save as assets/papers/hall1990.pdf
+
+Methodological Developments
+--------------------------
+
+1. Eilers, P. H. C., & Marx, B. D. (1996)
+Title: Flexible smoothing with B-splines and penalties
+Journal: Statistical Science, 11(2), 89-102
+Citations: 3000+
+DOI: 10.1214/ss/1038425655
+Keywords: P-splines, B-splines, penalized regression, smoothing
+Search: Google Scholar "Flexible smoothing with B-splines and penalties Eilers Marx 1996"
+PDF Format: Save as assets/papers/eilers1996.pdf
+
+2. Eilers, P. H. C., & Marx, B. D. (2010)
+Title: Splines, knots, and penalties
+Journal: Wiley Interdisciplinary Reviews: Computational Statistics
+Citations: 450+
+Keywords: P-splines, smoothing, penalized regression, knot placement, difference penalties
+Search: Google Scholar "Splines knots and penalties Eilers Marx 2010"
+PDF Format: Save as assets/papers/eilers2010.pdf
+
+3. Wang, X., & Lin, L. (2015)
+Title: Advanced smoothing techniques for high-dimensional data
+Journal: Computational Statistics & Data Analysis
+Citations: 200+
+Keywords: high-dimensional data, smoothing, penalized regression
+Search: Google Scholar "Advanced smoothing techniques Wang Lin 2015"
+PDF Format: Save as assets/papers/wang2015.pdf
+
+4. De Brabanter, K. (2011)
+Title: Derivative Estimation with Local Polynomial Fitting
+Journal: Statistical Methodology
+Keywords: local polynomial regression, derivative estimation, bandwidth selection
+Search: Google Scholar or journal website
+PDF Format: Save as assets/papers/De_Brabanter.pdf
+
+5. Chaudhuri, P. & Marron, J. S. (1999)
+Title: SiZer for Exploration of Structures in Curves
+Journal: Journal of the American Statistical Association
+Keywords: scale-space methods, derivative estimation, significance testing
+Search: JASA website or Google Scholar
+PDF Format: Save as assets/papers/chaudhuri1999.pdf
+
+Additional Resources
+------------------
+- Most papers can be accessed through:
+  * University library subscriptions
+  * Google Scholar
+  * ResearchGate
+  * Author's personal websites
+  * Journal websites
+
+- For PDF access:
+  * Check the /assets/papers/ directory in the workspace
+  * Use DOI links when available
+  * Contact authors directly if needed
+  * Save all PDFs in the assets/papers/ directory using the format: authorYYYY.pdf
+    (e.g., eilers1996.pdf, kong2023.pdf)
+  * For multiple authors, use first author's last name
+  * Keep filenames lowercase for consistency
+
+Note: Papers are organized chronologically within each category. Citations counts are approximate and based on Google Scholar as of 2024.

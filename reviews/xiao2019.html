@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Asymptotic theory of penalized splines</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Asymptotic theory of penalized splines (2019)</h2>
+            <div class="paper-meta">
+                <p><strong>Author:</strong> Luo Xiao</p>
+                <p><strong>Journal:</strong> Electronic Journal of Statistics</p>
+                <p><strong>Year:</strong> 2019</p>
+                <p><strong>Citations:</strong> 40+</p>
+                <a href="../assets/papers/xiao2019.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This paper provides a comprehensive treatment of asymptotic theory for penalized splines, establishing L∞ and L₂ convergence rates and demonstrating rate optimality under various conditions.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Unified asymptotic theory for penalized splines</li>
+                    <li>Proof of rate optimality</li>
+                    <li>Analysis of local asymptotics</li>
+                    <li>Extension to derivative estimation</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The paper develops theory through:</p>
+                <ol>
+                    <li>Analysis of convergence rates in different norms</li>
+                    <li>Investigation of local asymptotic behavior</li>
+                    <li>Study of boundary effects</li>
+                </ol>
+                <p>Key innovation lies in the unified treatment of different asymptotic regimes.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Theoretical Results</h3>
+                <div class="equation">
+                    <p>Key convergence result:</p>
+                    <p>||f̂ - f||∞ = O_p(n^(-r/(2r+1)))</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>f̂: penalized spline estimator</li>
+                        <li>f: true function</li>
+                        <li>r: smoothness parameter</li>
+                        <li>n: sample size</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work is fundamental to understanding:</p>
+                <ul>
+                    <li>Theoretical behavior of derivative estimators</li>
+                    <li>Optimal convergence rates</li>
+                    <li>Selection of tuning parameters</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Rigorous mathematical treatment</li>
+                    <li>Comprehensive theoretical framework</li>
+                    <li>Clear connections to practical applications</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Limited practical implementation guidance</li>
+                    <li>Focus on asymptotic rather than finite sample properties</li>
+                    <li>Restricted to univariate setting</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

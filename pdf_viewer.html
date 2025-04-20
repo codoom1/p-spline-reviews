@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper PDF Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            padding-top: 0; /* Remove top padding */
+            padding-bottom: 0; /* Remove bottom padding */
+            padding-left: 0; /* Remove left padding */
+            padding-right: 0; /* Remove right padding */
+        }
+        .pdf-container {
+            width: 95%;
+            height: 95vh; /* Use vh for viewport height */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically */
+        }
+        .pdf-container object {
+            width: 95%; /* Takes 95% width of container */
+            height: 95%; /* Takes full height of container */
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paper PDF Viewer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="papers.html">Reviewed Papers</a></li>
+                <li><a href="user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="pdf-container">
+            <object id="pdf-viewer" type="application/pdf" data="">
+                <p>It appears your browser doesn't support embedded PDFs. You can <a href="" id="pdf-download">download the PDF</a> instead.</p>
+            </object>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script>
+        // Get the PDF path from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const pdfPath = urlParams.get('pdf');
+        
+        if (pdfPath) {
+            const pdfViewer = document.getElementById('pdf-viewer');
+            const pdfDownload = document.getElementById('pdf-download');
+            pdfViewer.setAttribute('data', pdfPath);
+            pdfDownload.setAttribute('href', pdfPath);
+            document.title = 'Viewing: ' + pdfPath.split('/').pop();
+        }
+    </script>
+</body>
+</html>

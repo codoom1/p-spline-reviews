@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Derivative estimation based on difference sequence via locally weighted least squares regression</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Derivative estimation based on difference sequence via locally weighted least squares regression (2015)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Wang, W. W., & Lin, L.</p>
+                <p><strong>Journal:</strong> The Journal of Machine Learning Research</p>
+                <p><strong>Year:</strong> 2015</p>
+                <p><strong>Citations:</strong> 45+</p>
+                <a href="../assets/papers/wang2015.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This paper presents an innovative approach to derivative estimation using difference sequences combined with locally weighted least squares regression. The method provides an alternative to traditional kernel-based and spline-based approaches.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Novel difference sequence methodology</li>
+                    <li>Efficient computational algorithm</li>
+                    <li>Theoretical analysis of convergence rates</li>
+                    <li>Comparative analysis with existing methods</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The authors develop their approach through:</p>
+                <ol>
+                    <li>Construction of difference sequences</li>
+                    <li>Local polynomial fitting</li>
+                    <li>Adaptive bandwidth selection</li>
+                </ol>
+                <p>The key innovation lies in combining difference sequences with local fitting to improve efficiency.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Theoretical Results</h3>
+                <div class="equation">
+                    <p>Key convergence result:</p>
+                    <p>|f̂'(x) - f'(x)| = O_p((nh³)^(-1/2) + h²)</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>h: bandwidth parameter</li>
+                        <li>n: sample size</li>
+                        <li>f': true derivative</li>
+                        <li>f̂': estimated derivative</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h3>Comparison with P-splines</h3>
+                <p>Advantages over P-splines:</p>
+                <ul>
+                    <li>No need for knot selection</li>
+                    <li>Local adaptivity</li>
+                    <li>Simpler theoretical analysis</li>
+                </ul>
+                <p>Disadvantages:</p>
+                <ul>
+                    <li>Higher computational cost</li>
+                    <li>Less smooth estimates</li>
+                    <li>Boundary effects</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work provides:</p>
+                <ul>
+                    <li>Alternative perspective on derivative estimation</li>
+                    <li>Comparative benchmark for P-spline methods</li>
+                    <li>Insights into bandwidth selection</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

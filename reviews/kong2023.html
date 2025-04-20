@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Robust and Efficient derivative estimation under correlated errors</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Robust and Efficient derivative estimation under correlated errors (2023)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Kong, D., Shen, W., Zhao, S., & Wang, W.</p>
+                <p><strong>Journal:</strong> Journal of the Korean Statistical Society</p>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Citations:</strong> New</p>
+                <a href="../assets/papers/kong2023.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This paper addresses a critical challenge in derivative estimation: handling correlated errors in the data. The authors propose a robust estimation method that maintains efficiency under various correlation structures while being computationally tractable.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Development of robust derivative estimators for correlated errors</li>
+                    <li>Novel approach to handling unknown correlation structures</li>
+                    <li>Theoretical analysis of convergence properties</li>
+                    <li>Practical implementation strategies</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The authors develop their approach through:</p>
+                <ol>
+                    <li>Modified local polynomial fitting</li>
+                    <li>Robust variance estimation</li>
+                    <li>Correlation structure estimation</li>
+                </ol>
+                <p>The key innovation lies in their treatment of correlation structures while maintaining computational efficiency.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work is particularly relevant to our research as it addresses:</p>
+                <ul>
+                    <li>Handling correlated errors in derivative estimation</li>
+                    <li>Robust estimation techniques</li>
+                    <li>Practical implementation considerations</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Comprehensive theoretical framework</li>
+                    <li>Practical implementation guidance</li>
+                    <li>Extensive simulation studies</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Computational complexity for large datasets</li>
+                    <li>Assumptions about correlation structure</li>
+                    <li>Limited discussion of higher-order derivatives</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Results</h3>
+                <div class="equation">
+                    <p>Modified estimator with correlation structure:</p>
+                    <p>f̂'(x) = e₁ᵀ(XᵀΩ⁻¹X)⁻¹XᵀΩ⁻¹Y</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>Ω: estimated correlation matrix</li>
+                        <li>X: design matrix</li>
+                        <li>Y: response vector</li>
+                        <li>e₁: unit vector selecting derivative</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h3>Future Directions</h3>
+                <p>The paper suggests several promising research directions:</p>
+                <ul>
+                    <li>Extension to multivariate settings</li>
+                    <li>Development of adaptive bandwidth selection</li>
+                    <li>Integration with other smoothing techniques</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

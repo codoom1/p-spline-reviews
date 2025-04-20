@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: On the asymptotics of penalized splines</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>On the asymptotics of penalized splines (2008)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Li, Y., & Ruppert, D.</p>
+                <p><strong>Journal:</strong> Biometrika</p>
+                <p><strong>Year:</strong> 2008</p>
+                <p><strong>Citations:</strong> 400+</p>
+                <a href="../assets/papers/Li&Ruppert2008.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This seminal paper provides a comprehensive asymptotic analysis of penalized spline regression estimators. The authors derive the asymptotic distribution of penalized spline estimators under general conditions, particularly focusing on the relationship between the number of knots and the sample size.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Establishes explicit asymptotic expressions for penalized spline estimators</li>
+                    <li>Provides conditions for asymptotic normality</li>
+                    <li>Analyzes the interplay between smoothing parameter and number of knots</li>
+                    <li>Demonstrates equivalence with kernel regression under certain conditions</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The authors develop their analysis through:</p>
+                <ol>
+                    <li>Asymptotic framework for P-splines</li>
+                    <li>Analysis of bias and variance components</li>
+                    <li>Investigation of boundary effects</li>
+                    <li>Examination of different knot selection strategies</li>
+                </ol>
+                <p>A key insight is the connection between penalized splines and kernel methods in the asymptotic setting.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work is fundamental to understanding:</p>
+                <ul>
+                    <li>Asymptotic behavior of penalized spline estimators</li>
+                    <li>Optimal selection of tuning parameters</li>
+                    <li>Theoretical properties of derivative estimation</li>
+                    <li>Connections between different smoothing approaches</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Rigorous mathematical treatment</li>
+                    <li>Clear connections to existing theory</li>
+                    <li>Practical implications for implementation</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Focuses mainly on uniform designs</li>
+                    <li>Limited treatment of derivative estimation</li>
+                    <li>Assumes independent errors</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Technical Details</h3>
+                <div class="equation">
+                    <p>Key asymptotic result:</p>
+                    <p>Under appropriate conditions, for interior points x:</p>
+                    <p>√nh(μ̂(x) - μ(x) - asymptotic bias) →ᵈ N(0, V(x))</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>h: effective bandwidth</li>
+                        <li>μ̂(x): P-spline estimator</li>
+                        <li>μ(x): true function</li>
+                        <li>V(x): asymptotic variance</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

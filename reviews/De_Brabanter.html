@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Derivative Estimation with Local Polynomial Fitting - De Brabanter</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Review: Derivative Estimation with Local Polynomial Fitting</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="paper-review">
+            <section class="paper-info">
+                <h2>Paper Information</h2>
+                <p><strong>Title:</strong> Derivative Estimation with Local Polynomial Fitting</p>
+                <p><strong>Author:</strong> De Brabanter, K.</p>
+                <p><strong>Year:</strong> 2011</p>
+                <p><strong>Journal:</strong> Statistical Methodology</p>
+            </section>
+
+            <section class="key-contributions">
+                <h2>Key Contributions</h2>
+                <ul>
+                    <li>Introduces a robust approach to derivative estimation using local polynomial fitting</li>
+                    <li>Provides theoretical analysis of bandwidth selection for derivative estimation</li>
+                    <li>Demonstrates improved performance compared to traditional kernel-based methods</li>
+                    <li>Presents practical implementation guidelines and computational considerations</li>
+                </ul>
+            </section>
+
+            <section class="methodology">
+                <h2>Methodology</h2>
+                <p>The paper presents a local polynomial fitting approach for derivative estimation that:</p>
+                <ul>
+                    <li>Uses weighted least squares with kernel weights for local fitting</li>
+                    <li>Employs higher-order polynomials (typically degree 2 or 3) to estimate derivatives</li>
+                    <li>Implements data-driven bandwidth selection through cross-validation</li>
+                    <li>Accounts for boundary effects through modified kernel functions</li>
+                </ul>
+            </section>
+
+            <section class="theoretical-results">
+                <h2>Theoretical Results</h2>
+                <p>The paper establishes:</p>
+                <ul>
+                    <li>Asymptotic properties of the derivative estimator</li>
+                    <li>Optimal convergence rates under various smoothness conditions</li>
+                    <li>Bias-variance trade-off analysis for bandwidth selection</li>
+                    <li>Boundary correction methods and their theoretical properties</li>
+                </ul>
+            </section>
+
+            <section class="practical-implementation">
+                <h2>Practical Implementation</h2>
+                <p>The implementation aspects include:</p>
+                <ul>
+                    <li>Efficient algorithms for local polynomial fitting</li>
+                    <li>Guidelines for choosing polynomial degree and kernel function</li>
+                    <li>Computational strategies for large datasets</li>
+                    <li>Cross-validation procedures for bandwidth selection</li>
+                </ul>
+            </section>
+
+            <section class="numerical-results">
+                <h2>Numerical Results</h2>
+                <p>The paper demonstrates:</p>
+                <ul>
+                    <li>Superior performance compared to kernel-based methods</li>
+                    <li>Robustness to different noise levels and data distributions</li>
+                    <li>Effective handling of boundary regions</li>
+                    <li>Practical applications to real-world datasets</li>
+                </ul>
+            </section>
+
+            <section class="strengths-limitations">
+                <h2>Strengths and Limitations</h2>
+                <h3>Strengths:</h3>
+                <ul>
+                    <li>Robust theoretical foundation</li>
+                    <li>Practical implementation guidelines</li>
+                    <li>Comprehensive simulation studies</li>
+                    <li>Clear exposition of methodology</li>
+                </ul>
+                <h3>Limitations:</h3>
+                <ul>
+                    <li>Computational complexity for large datasets</li>
+                    <li>Sensitivity to bandwidth selection</li>
+                    <li>Limited discussion of multivariate extensions</li>
+                </ul>
+            </section>
+
+            <section class="impact">
+                <h2>Impact and Applications</h2>
+                <p>The method has found applications in:</p>
+                <ul>
+                    <li>Signal processing and time series analysis</li>
+                    <li>Economics and financial data analysis</li>
+                    <li>Biomedical signal processing</li>
+                    <li>Environmental data analysis</li>
+                </ul>
+            </section>
+
+            <section class="implementation-example">
+                <h2>Implementation Example</h2>
+                <p>An implementation of this method is available in the accompanying Jupyter notebook: 
+                <a href="../derivative_estimation.ipynb">derivative_estimation.ipynb</a></p>
+                <p>The notebook demonstrates:</p>
+                <ul>
+                    <li>Basic implementation of local polynomial fitting</li>
+                    <li>Derivative estimation on synthetic data</li>
+                    <li>Visualization of results</li>
+                    <li>Comparison with true derivatives</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+</body>
+</html>

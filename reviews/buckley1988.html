@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: The estimation of residual variance in nonparametric regression</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>The estimation of residual variance in nonparametric regression (1988)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Buckley, M. J., Eagleson, G. K., & Silverman, B. W.</p>
+                <p><strong>Journal:</strong> Biometrika</p>
+                <p><strong>Year:</strong> 1988</p>
+                <p><strong>Citations:</strong> 250+</p>
+                <a href="../assets/papers/buckley1988.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This paper addresses the fundamental problem of estimating residual variance in nonparametric regression. The authors develop methods for variance estimation that are particularly relevant to derivative estimation and bandwidth selection problems.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Novel approach to residual variance estimation in nonparametric settings</li>
+                    <li>Development of consistent estimators under minimal assumptions</li>
+                    <li>Analysis of bias and variance trade-offs</li>
+                    <li>Application to bandwidth selection problems</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The authors develop their methodology through:</p>
+                <ol>
+                    <li>Difference-based estimators for residual variance</li>
+                    <li>Analysis of optimal difference sequences</li>
+                    <li>Extensions to heteroscedastic settings</li>
+                </ol>
+                <p>A key innovation is their treatment of boundary effects and their impact on variance estimation.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work is particularly relevant to our research in:</p>
+                <ul>
+                    <li>Understanding error structure in derivative estimation</li>
+                    <li>Improving bandwidth selection methods</li>
+                    <li>Handling heteroscedastic errors in practice</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Strong theoretical foundations</li>
+                    <li>Practical implementation guidelines</li>
+                    <li>Clear connections to bandwidth selection</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Assumes equally spaced design points</li>
+                    <li>Limited treatment of correlated errors</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Implementation Details</h3>
+                <div class="equation">
+                    <p>Key variance estimator form:</p>
+                    <p>σ̂² = (2(n-r))⁻¹ Σᵢ(ΔʳYᵢ)²</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>Δʳ: r-th order difference operator</li>
+                        <li>Yᵢ: observed data points</li>
+                        <li>n: sample size</li>
+                        <li>r: difference order</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

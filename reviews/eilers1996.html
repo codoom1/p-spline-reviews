@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Flexible smoothing with B-splines and penalties</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Flexible smoothing with B-splines and penalties (1996)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Eilers, P. H., & Marx, B. D.</p>
+                <p><strong>Journal:</strong> Statistical Science, 11(2), 89-102</p>
+                <p><strong>Year:</strong> 1996</p>
+                <p><strong>Citations:</strong> 3000+</p>
+                <a href="../assets/papers/eilers1996.pdf" class="pdf-link" download>Download PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This seminal paper introduced P-splines (penalized B-splines), combining B-spline basis functions with difference penalties on coefficients. The authors present a flexible framework for non-parametric regression that balances smoothness with data fidelity.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Introduction of P-splines methodology</li>
+                    <li>Development of difference penalties for coefficient regularization</li>
+                    <li>Efficient computational implementation using B-spline bases</li>
+                    <li>Demonstration of flexibility in smoothing parameter selection</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The paper presents P-splines as a combination of:</p>
+                <ol>
+                    <li>B-spline basis functions for flexible function representation</li>
+                    <li>Difference penalties on adjacent B-spline coefficients</li>
+                    <li>Efficient matrix computations for parameter estimation</li>
+                </ol>
+                <p>The key innovation is using difference penalties on coefficients rather than traditional derivative-based roughness penalties, leading to simpler computation and interpretation.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to Current Research</h3>
+                <p>This work forms the theoretical foundation for our current research in derivative estimation. Their framework for penalty selection and coefficient estimation directly influences our approach to smoothing parameter selection for derivative estimation.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Critical Analysis</h3>
+                <p>Strengths:</p>
+                <ul>
+                    <li>Elegant mathematical formulation</li>
+                    <li>Practical computational implementation</li>
+                    <li>Clear exposition of theoretical concepts</li>
+                </ul>
+                <p>Limitations:</p>
+                <ul>
+                    <li>Limited theoretical analysis of convergence rates</li>
+                    <li>Focused primarily on function estimation rather than derivatives</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Equations</h3>
+                <div class="equation">
+                    <p>P-spline objective function:</p>
+                    <p>Q = ||y - Ba||² + λ||Dd a||²</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>B: B-spline basis matrix</li>
+                        <li>a: coefficient vector</li>
+                        <li>Dd: difference matrix of order d</li>
+                        <li>λ: smoothing parameter</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review: Bandwidth Choice and Confidence Intervals for Derivatives of Noisy Data</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Paper Review</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../papers.html">Reviewed Papers</a></li>
+                <li><a href="../user_paper.html">My Paper</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="review-content">
+        <article class="paper-review">
+            <h2>Bandwidth Choice and Confidence Intervals for Derivatives of Noisy Data (1987)</h2>
+            <div class="paper-meta">
+                <p><strong>Authors:</strong> Müller, H. G., Stadtmüller, U., & Schmitt, T.</p>
+                <p><strong>Journal:</strong> Biometrika</p>
+                <p><strong>Year:</strong> 1987</p>
+                <p><strong>Citations:</strong> 600+</p>
+                <a href="../pdf_viewer.html?pdf=assets/papers/muller1987.pdf" class="pdf-link">View PDF</a>
+            </div>
+
+            <section class="review-section">
+                <h3>Summary</h3>
+                <p>This seminal paper addresses two fundamental challenges in derivative estimation: automatic bandwidth selection and construction of confidence intervals. It establishes foundational principles that influence modern approaches to parameter selection in both kernel and spline-based methods.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Key Contributions</h3>
+                <ul>
+                    <li>Automatic bandwidth selection method</li>
+                    <li>Construction of confidence intervals</li>
+                    <li>Analysis of finite sample properties</li>
+                    <li>Monte Carlo validation</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Methodology</h3>
+                <p>The authors develop their methodology through:</p>
+                <ol>
+                    <li>Analysis of optimal bandwidth rates</li>
+                    <li>Plug-in bandwidth estimation</li>
+                    <li>Confidence interval construction</li>
+                </ol>
+                <p>The key innovation lies in connecting bandwidth selection to confidence interval coverage.</p>
+            </section>
+
+            <section class="review-section">
+                <h3>Theoretical Results</h3>
+                <div class="equation">
+                    <p>Optimal bandwidth rate:</p>
+                    <p>h_opt ∼ n^(-1/(2r+2m+1))</p>
+                    <p>where:</p>
+                    <ul>
+                        <li>n: sample size</li>
+                        <li>r: derivative order</li>
+                        <li>m: kernel order</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="review-section">
+                <h3>Relevance to P-splines</h3>
+                <p>While focused on kernel methods, this work influences P-spline methodology through:</p>
+                <ul>
+                    <li>Understanding of smoothing parameter selection</li>
+                    <li>Trade-off between bias and variance</li>
+                    <li>Confidence interval construction principles</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Impact on Current Research</h3>
+                <p>This paper continues to influence modern derivative estimation through:</p>
+                <ul>
+                    <li>Parameter selection principles</li>
+                    <li>Uncertainty quantification methods</li>
+                    <li>Finite sample performance analysis</li>
+                </ul>
+            </section>
+
+            <section class="review-section">
+                <h3>Practical Implications</h3>
+                <p>Key practical insights include:</p>
+                <ul>
+                    <li>Data-driven parameter selection</li>
+                    <li>Balance between smoothing and precision</li>
+                    <li>Importance of uncertainty assessment</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Christopher Odoom/P-spline Derivative Estimation Lab</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
