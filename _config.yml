@@ -1,18 +1,17 @@
-title: <%= ENV['SITE_TITLE'] %>
-description: <%= ENV['SITE_DESCRIPTION'] %>
-author: <%= ENV['SITE_AUTHOR'] %>
+title: "Non-Parametric Derivative Estimation Research"
+description: "A comprehensive review of research papers on non-parametric derivative estimation using penalized B-splines"
+author: "Christopher Odoom"
 baseurl: "/Literature_review"
-url: <%= ENV['SITE_URL'] %>
-github_username: <%= ENV['GITHUB_USERNAME'] %>
-google_analytics: <%= ENV['GOOGLE_ANALYTICS_ID'] %>
-contact_email: <%= ENV['CONTACT_EMAIL'] %>
+url: "https://christopherodoom.github.io"
+github_username: christopherodoom
+google_analytics: 
+contact_email: 
 
 theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-dotenv
 
 exclude:
   - .env
@@ -23,3 +22,4 @@ exclude:
   - README.md
   - .gitignore
   - .git
+  - derivative_estimation.ipynb
